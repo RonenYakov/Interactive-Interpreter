@@ -1,0 +1,21 @@
+example to the user input.
+    Enter a command (or 'quit' to exit): assign x 5
+Assigned 5 to x
+Enter a command (or 'quit' to exit): assign y 10
+Assigned 10 to y
+Enter a command (or 'quit' to exit): add x y
+Result: 15
+Enter a command (or 'quit' to exit): multiply x 3
+Result: 15
+Enter a command (or 'quit' to exit): print x
+x = 5
+Enter a command (or 'quit' to exit): power 2 3
+Result: 8
+Enter a command (or 'quit' to exit): mod 17 5
+Result: 2
+Enter a command (or 'quit' to exit): max 7 9
+Result: 9
+Enter a command (or 'quit' to exit): equal 5 5
+Result: True
+Enter a command (or 'quit' to exit): quit
+Exiting the program. Goodbye!

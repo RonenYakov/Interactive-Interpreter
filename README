@@ -1,0 +1,67 @@
+This project contains a collection of custom Python classes and functions that provide various utilities for mathematical operations, data structures, and basic programming constructs.
+Table of Contents
+
+Math Operations
+Control Structures
+Data Structures
+Lexer, Parser, and Interpreter
+Usage
+
+Math Operations
+The project includes a set of basic mathematical operations:
+
+Addition (add)
+Subtraction (subtract)
+Multiplication (multiply)
+Division (divide)
+Power (power)
+Square root (square)
+Modulus (mod)
+Max and Min (Max, Min)
+Comparison operations (equal, not_equal, greater_than, less_than, etc.)
+Logical operations (logical_or, logical_and)
+
+These operations are implemented as individual functions and can be called using the call_operation function.
+Control Structures
+Custom implementations of basic control structures are provided:
+
+custom_if: A custom if statement
+custom_else: A custom else statement
+custom_ifElse: A custom if-else statement
+custom_while: A custom while loop
+custom_for: A custom for loop
+
+These allow for functional-style control flow in your programs.
+Data Structures
+CustomString
+A custom string class with methods like:
+split
+replace
+isUpper
+isLower
+concat
+
+CustomTuple
+A custom tuple class with methods like:
+sequence
+sort
+getItem
+index
+length
+
+Array
+A custom array class with methods like:
+append
+index
+find
+add
+remove
+
+Lexer, Parser, and Interpreter
+The project includes basic implementations of:
+
+Lexer: Tokenizes input text
+Parser: Parses tokens into an Abstract Syntax Tree (AST)
+Interpreter: Evaluates the AST
+
+These components can be used to create a simple expression evaluator.
