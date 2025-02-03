@@ -1,67 +1,86 @@
-This project contains a collection of custom Python classes and functions that provide various utilities for mathematical operations, data structures, and basic programming constructs.
-Table of Contents
+# Interactive Interpreter with Custom Utilities
 
-Math Operations
-Control Structures
-Data Structures
-Lexer, Parser, and Interpreter
-Usage
+## Overview
+This project contains a collection of **custom Python classes and functions** that provide various utilities for **mathematical operations, data structures, control structures, and a simple lexer, parser, and interpreter**. The goal is to create an extensible system that enables users to perform custom scripting operations dynamically.
 
-Math Operations
-The project includes a set of basic mathematical operations:
+## Table of Contents
+- [Math Operations](#math-operations)
+- [Control Structures](#control-structures)
+- [Data Structures](#data-structures)
+- [Lexer, Parser, and Interpreter](#lexer-parser-and-interpreter)
+- [Usage](#usage)
+- [Future Improvements](#future-improvements)
 
-Addition (add)
-Subtraction (subtract)
-Multiplication (multiply)
-Division (divide)
-Power (power)
-Square root (square)
-Modulus (mod)
-Max and Min (Max, Min)
-Comparison operations (equal, not_equal, greater_than, less_than, etc.)
-Logical operations (logical_or, logical_and)
+## Math Operations
+This project includes a set of essential mathematical operations, implemented as individual functions:
 
-These operations are implemented as individual functions and can be called using the call_operation function.
-Control Structures
-Custom implementations of basic control structures are provided:
+- **Basic Arithmetic**: Addition (`add`), Subtraction (`subtract`), Multiplication (`multiply`), Division (`divide`)
+- **Advanced Math**: Power (`power`), Square Root (`square`), Modulus (`mod`)
+- **Comparison Operations**: Equal (`equal`), Not Equal (`not_equal`), Greater/Less Than (`greater_than`, `less_than`)
+- **Logical Operations**: Logical OR (`logical_or`), Logical AND (`logical_and`)
+- **Utility Functions**: Max (`Max`), Min (`Min`)
 
-custom_if: A custom if statement
-custom_else: A custom else statement
-custom_ifElse: A custom if-else statement
-custom_while: A custom while loop
-custom_for: A custom for loop
+These operations can be accessed using the `call_operation` function, allowing for flexible computations.
 
-These allow for functional-style control flow in your programs.
-Data Structures
-CustomString
-A custom string class with methods like:
-split
-replace
-isUpper
-isLower
-concat
+## Control Structures
+The project provides custom implementations of fundamental control structures for **functional-style programming**:
 
-CustomTuple
-A custom tuple class with methods like:
-sequence
-sort
-getItem
-index
-length
+- `custom_if`: A functional if statement
+- `custom_else`: A functional else statement
+- `custom_ifElse`: A combined if-else statement
+- `custom_while`: A functional while loop
+- `custom_for`: A functional for loop
 
-Array
-A custom array class with methods like:
-append
-index
-find
-add
-remove
+These structures enable flexible execution flow without relying on standard Python constructs.
 
-Lexer, Parser, and Interpreter
-The project includes basic implementations of:
+## Data Structures
+Custom implementations of essential data structures enhance programmability:
 
-Lexer: Tokenizes input text
-Parser: Parses tokens into an Abstract Syntax Tree (AST)
-Interpreter: Evaluates the AST
+### **CustomString**
+A custom string class with methods for string manipulation:
+- `split()`: Splits the string into a list
+- `replace()`: Replaces occurrences of a substring
+- `isUpper()`: Checks if the string is uppercase
+- `isLower()`: Checks if the string is lowercase
+- `concat()`: Concatenates two strings
 
-These components can be used to create a simple expression evaluator.
+### **CustomTuple**
+A custom tuple class with key functionalities:
+- `sequence()`: Generates a tuple sequence
+- `sort()`: Sorts the elements
+- `getItem()`: Retrieves an item by index
+- `index()`: Returns the index of an element
+- `length()`: Returns the length of the tuple
+
+### **Array**
+A flexible array class with methods:
+- `append()`: Adds an item to the array
+- `index()`: Retrieves the index of an item
+- `find()`: Searches for an element
+- `add()`: Adds an element at a specific position
+- `remove()`: Removes an item
+
+## Lexer, Parser, and Interpreter
+This project includes a **basic interpreter system** consisting of:
+
+- **Lexer**: Tokenizes input text into meaningful symbols
+- **Parser**: Converts tokens into an **Abstract Syntax Tree (AST)**
+- **Interpreter**: Evaluates the AST to execute commands dynamically
+
+These components allow for **custom scripting and expression evaluation**, making it possible to define and execute custom logic within the interpreter.
+
+
+## Future Improvements
+- Expand mathematical operations to include **trigonometric and logarithmic functions**
+- Enhance the **parser and interpreter** to support more complex expressions
+- Implement **variable assignment and user-defined functions**
+- Optimize the **performance** of data structure operations
+- Add support for **file-based scripting**
+
+## Author
+Developed by Michael Kupfer Zohar Simhon and Ronen Yakobov.
+
+## References
+- **Python Lexers & Parsers**: [Writing an Interpreter in Python](https://craftinginterpreters.com/)
+- **Data Structures in Python**: [Python Documentation](https://docs.python.org/3/tutorial/datastructures.html)
+
